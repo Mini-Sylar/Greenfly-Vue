@@ -19,11 +19,15 @@
            <div class="reverse">
             <app-sections v-bind:section_content='section_content.content_2'>
            </app-sections>
-           </div>
-            
+           </div> 
         </div>
-       
       </section>
+       <!-- Grid Elements -->
+       <section>
+        <div class="is-a-container">
+          <app-grid></app-grid>
+        </div>
+       </section>
     </main>
   </div>
 </template>
@@ -33,6 +37,7 @@ import Header from "./components/Header.vue";
 import Landing from "./components/Landing.vue";
 import SeeWhy from "./components/SeeWhy.vue";
 import Sections from './components/Sections.vue';
+import GridElements from './components/GridElements.vue';
 export default {
   name: "Greenfly",
   data() {
@@ -58,6 +63,7 @@ export default {
     "app-landing": Landing,
     "app-seewhy": SeeWhy,
     "app-sections": Sections,
+    "app-grid": GridElements
   },
 };
 </script>
