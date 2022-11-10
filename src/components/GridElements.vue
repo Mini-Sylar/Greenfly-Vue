@@ -68,17 +68,18 @@ h5 {
 }
 
 h5 {
-    width: 20ch;
+    width: 30ch;
+    font-size: clamp(1rem, 1vw, 1.5rem);
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 14px;
     margin-block: .5rem;
 }
 
 h4>* {
     color: var(--main-accent-color);
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .grid-container {
@@ -96,9 +97,19 @@ h4>* {
             "e f";
         place-items: center;
         height: 100%;
-        column-gap: 1rem;
+        column-gap: 2rem;
         /* width: 100%;
     margin: 0 auto; */
+    }
+
+    h4>* {
+        color: var(--main-accent-color);
+        font-size: 2.2rem;
+    }
+
+    h5 {
+        width: 20ch;
+        font-size: clamp(.7rem, .2vw, 1.5rem);
     }
 }
 </style>

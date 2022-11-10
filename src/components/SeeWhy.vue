@@ -75,4 +75,11 @@ img {
 img:hover {
     filter: grayscale(0%);
 }
+
+@media screen and (max-width:426px) {
+    .see-why-container {
+        height: 100%;
+        padding-top: 19rem;
+    }
+}
 </style>

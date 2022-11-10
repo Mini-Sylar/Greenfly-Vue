@@ -119,8 +119,8 @@ body {
   will-change: transform, opacity;
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (max-width: 426px) {
   .reverse > div > .content-section {
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
   }
 }

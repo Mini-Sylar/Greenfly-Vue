@@ -13,11 +13,11 @@
                     </div>
                     <div class="phone">
                        <i class="fa-solid fa-mobile"></i>
-                        <p>Phone: 123-456-7890</p>
+                        <p>123-456-7890</p>
                     </div>
                     <div class="email">
                        <i class="fa-solid fa-envelope"></i>
-                        <p>Email: example@gmail.com </p>
+                        <p>example@gmail.com </p>
                         </div>
                 </div>
                 <div class="socials-important">

@@ -57,7 +57,7 @@ export default {
 
 p {
     width: 50ch;
-    font-size: clamp(.8rem, 1.5vw, 1.5rem);
+    font-size: clamp(.7rem, 1.5vw, 1.2rem);
 }
 
 h2 {
