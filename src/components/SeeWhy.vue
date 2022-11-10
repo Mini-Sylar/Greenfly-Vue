@@ -3,11 +3,11 @@
         <h2>
             See why over 500 organizations around the world use Greenfly
         </h2>
-        <div>
-            <div class="slide-1">slide-1</div>
-            <div class="slide-2">slide-2</div>
-            <div class="slide-3">slide-3</div>
-            <div class="slide-4">slide-4</div>
+        <div class="slides-container">
+            <div class="slide-1"><img src="@/assets/images/aecom.png" alt=""></div>
+            <div class="slide-2"><img src="@/assets/images/ibm.png" alt=""></div>
+            <div class="slide-3"><img src="@/assets/images/oracle.png" alt=""></div>
+            <div class="slide-4"><img src="@/assets/images/uber.png" alt=""></div>
         </div>
         <button type="button">Customer Success Stories</button>
     </div>
@@ -55,5 +55,25 @@ button {
     color: var(--main-accent-color);
     font-weight: 700;
     cursor: pointer;
+}
+
+.slides-container {
+    width: 100%;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(100%);
+    transition: .5s ease;
+}
+
+img:hover {
+    filter: grayscale(0%);
 }
 </style>

@@ -7,7 +7,7 @@
           <app-landing></app-landing>
         </div>
       </section>
-      <section>
+      <section class="has-color">
         <div class="is-a-container">
           <app-seewhy></app-seewhy>
         </div>
@@ -21,7 +21,7 @@
            </app-sections>
            </div> 
         </div>
-      </section>
+      </section class="has-color">
        <!-- Grid Elements -->
        <section>
         <div class="is-a-container">
@@ -70,5 +70,5 @@ export default {
 };
 </script>
 <style  src="@/assets/css/Reset.css">
- 
+
 </style>
