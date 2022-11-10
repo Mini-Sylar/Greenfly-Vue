@@ -1,0 +1,50 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  padding-top: 10rem;
+  z-index: -2;
+}
+
+img {
+  width: 30%;
+  height: 80%;
+  object-fit: contain;
+}
+
+p {
+  color: #bbbbbb;
+}
+
+.group-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-1 > * {
+  width: 100%;
+}
+
+.location-important div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-block: 1rem;
+  gap: 1rem;
+}
+
+.socials-important div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-block: 1rem;
+  gap: 1rem;
+}
+
+svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  color: rgb(3, 184, 93);
+}

@@ -34,6 +34,9 @@ li {
   border-radius: 20px;
   padding-top: 1rem;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: -10rem;
+  z-index: 5;
+  background-color: #fff;
 }
 
 .group {
@@ -41,7 +44,7 @@ li {
   flex-direction: column;
   gap: 0.6rem;
   width: 70%;
-  margin: 0 auto;
+  margin: 0.2rem auto;
   height: 80%;
 }
 
@@ -70,4 +73,25 @@ textarea {
   height: 200px;
   resize: none;
   font-size: 1.2rem;
+}
+
+svg {
+  color: #41b883;
+}
+
+button {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #41b883;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 0 auto;
+  width: 50%;
+  display: grid;
+  place-content: center;
 }

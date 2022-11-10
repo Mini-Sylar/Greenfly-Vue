@@ -3,6 +3,7 @@
   --main-accent-color: #0055af;
   --main-font-color: #fff;
   --section-font-color: #022a4e;
+  --footer-color: hsl(153, 48%, 29%);
 }
 
 *,
@@ -30,4 +31,8 @@ a {
 
 .has-color {
   background-color: #f2f2f2;
+}
+
+.is-a-footer {
+  background-color: var(--footer-color);
 }

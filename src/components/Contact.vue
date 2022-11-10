@@ -5,8 +5,8 @@
                 <h2>Ready to start a conversation?</h2>
                 <p>We are always willing and ready to transform advocates</p>
                 <ul>
-                    <li>Number: 111,111,111</li>
-                    <li>Email:example@example.com</li>
+                    <li><i class="fa-solid fa-mobile"></i> +233 xx xx xxxx</li>
+                    <li><i class="fa-solid fa-envelope"></i> example@example.com</li>
                 </ul>
             </div>
             <div class="right-side">
@@ -56,5 +56,5 @@ export default {
 }
 </script>
 <style scoped src="@/assets/css/Contact.css" >
-
+    
 </style>

@@ -35,6 +35,10 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
+    <footer class="is-a-footer">
+      <app-footer></app-footer>
+    </footer>
   </div>
 </template>
 
@@ -45,7 +49,7 @@ import SeeWhy from "./components/SeeWhy.vue";
 import Sections from './components/Sections.vue';
 import GridElements from './components/GridElements.vue';
 import Contact from './components/Contact.vue';
-
+import Footer from './components/Footer.vue';
 
 export default {
   name: "Greenfly",
@@ -74,6 +78,7 @@ export default {
     "app-sections": Sections,
     "app-grid": GridElements,
     "app-contact": Contact,
+    "app-footer": Footer,
   },
 };
 </script>
