@@ -1,6 +1,7 @@
 <template lang="">
   <div>
     <app-header></app-header>
+     <ui-blob></ui-blob>
     <main>
        <ui-wave></ui-wave>
       <section>
@@ -53,6 +54,7 @@ import GridElements from './components/GridElements.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 import Wave from './components/interface/Wave.vue';
+import Blob from './components/interface/Blob.vue';
 
 export default {
   name: "Greenfly",
@@ -83,6 +85,7 @@ export default {
     "app-contact": Contact,
     "app-footer": Footer,
     "ui-wave": Wave,
+    "ui-blob": Blob,
   },
 };
 </script>
