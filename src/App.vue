@@ -21,9 +21,9 @@
            </app-sections>
            </div> 
         </div>
-      </section class="has-color">
+      </section >
        <!-- Grid Elements -->
-       <section>
+       <section class="has-color">
         <div class="is-a-container">
           <app-grid></app-grid>
         </div>

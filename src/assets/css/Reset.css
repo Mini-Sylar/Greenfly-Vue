@@ -27,3 +27,7 @@ a {
 .reverse > div > .content-section {
   flex-direction: row-reverse;
 }
+
+.has-color {
+  background-color: #f2f2f2;
+}

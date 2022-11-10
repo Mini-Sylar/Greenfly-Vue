@@ -1,17 +1,18 @@
 header {
-  /* width: 100vw; */
+  width: 100%;
 }
 
 nav {
   display: flex;
-  width: min(90%, 1200px);
+  width: min(90%, 1600px);
+  overflow: hidden;
   margin: 0 auto;
 }
 .logo {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
+  width: 90%;
 }
 .logo img {
   width: 50%;
@@ -40,7 +41,6 @@ nav {
 
 .demo {
   display: flex;
-  /* background-color: yellow; */
   justify-content: flex-end;
   width: 100%;
 }
@@ -49,4 +49,15 @@ nav {
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.get-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0055af;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 20px;
+  cursor: pointer;
 }
