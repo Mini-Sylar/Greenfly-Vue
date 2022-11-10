@@ -1,11 +1,11 @@
 <template lang="">
   <div>
     <div class="content-section">
-        <div class="left-side" >
+        <div class="left-side gs_reveal gs_reveal_fromLeft" >
            <h2>{{section_content.title}}</h2>
            <p>{{section_content.body}}</p>
         </div>    
-        <div class="right-side">
+        <div class="right-side gs_reveal gs_reveal_fromRight">
             <img :src="image"  alt="Image Here">
         </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="contact-container">
-            <div class="left-side">
+            <div class="left-side gs_reveal gs_reveal_fromLeft">
                 <h2>Ready to start a conversation?</h2>
                 <p>We are always willing and ready to transform advocates</p>
                 <ul>
@@ -9,7 +9,7 @@
                     <li><i class="fa-solid fa-envelope"></i> example@example.com</li>
                 </ul>
             </div>
-            <div class="right-side">
+            <div class="right-side gs_reveal gs_reveal_fromRight">
                 <div class="form-container">
                     <form action="#">
                         <div class="group">
@@ -56,5 +56,5 @@ export default {
 }
 </script>
 <style scoped src="@/assets/css/Contact.css" >
-    
+
 </style>

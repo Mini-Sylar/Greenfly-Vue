@@ -1,6 +1,6 @@
 <template lang="">
   <div class="landing-page">
-    <div class="left-side">
+    <div class="left-side gs_reveal gs_reveal_fromLeft">
       <h1 class="transform-heading">
         {{ heading }}
       </h1>
@@ -9,7 +9,7 @@
       </p>
       <button type="button" class="request-demo-button">Request a Demo</button>
     </div>
-    <div class="right-side">
+    <div class="right-side gs_reveal gs_reveal_fromRight">
         <app-image-piece></app-image-piece>
     </div>
   </div>

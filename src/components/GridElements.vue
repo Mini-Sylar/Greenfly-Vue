@@ -1,8 +1,8 @@
 <template lang="">
   <div class="grid-container">
-    <h2 class="main-section-title">Lorem Ipusm</h2>
+    <h2 class="main-section-title gs_reveal">Lorem Ipusm</h2>
       <div class="grid-elements">
-        <div class="" v-for="(item, index) in content.icons" :key="index">
+        <div class="gs_reveal" v-for="(item, index) in content.icons" :key="index">
           <div class="grid-item">
             <h4><i :class="item"></i></h4>
             <h5>{{ content.body[index] }}</h5>

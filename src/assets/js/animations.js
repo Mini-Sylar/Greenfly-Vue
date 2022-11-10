@@ -1,3 +1,4 @@
+// GSAP
 function animateFrom(elem, direction) {
   direction = direction || 1;
   var x = 0,
@@ -37,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     ScrollTrigger.create({
       trigger: elem,
-      markers: true,
       onEnter: function () {
         animateFrom(elem);
       },

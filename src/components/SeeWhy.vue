@@ -1,9 +1,9 @@
 <template lang="">
-    <div class="see-why-container">
+    <div class="see-why-container gs_reveal">
         <h2>
             See why over 500 organizations around the world use Greenfly
         </h2>
-        <div class="slides-container">
+        <div class="slides-container gs_reveal">
             <div class="slide-1"><img src="@/assets/images/aecom.png" alt=""></div>
             <div class="slide-2"><img src="@/assets/images/ibm.png" alt=""></div>
             <div class="slide-3"><img src="@/assets/images/oracle.png" alt=""></div>

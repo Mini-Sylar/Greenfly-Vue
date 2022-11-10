@@ -6,8 +6,7 @@
        <ui-wave></ui-wave>
       <section>
         <div class="is-a-container is-landing">
-          <app-landing></app-landing>
-         
+          <app-landing ></app-landing>
         </div>
       </section>
       <section class="has-color push-up">
@@ -18,7 +17,7 @@
       <section>
         <div class="is-a-container">
            <app-sections v-bind:section_content='section_content.content_1'>
-           </app-sections>
+           </app-sections> 
            <div class="reverse">
             <app-sections v-bind:section_content='section_content.content_2' style="display:flex;flex-direction:column-reverse">
            </app-sections>
@@ -55,8 +54,6 @@ import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 import Wave from './components/interface/Wave.vue';
 import Blob from './components/interface/Blob.vue';
-
-
 
 export default {
   name: "Greenfly",
