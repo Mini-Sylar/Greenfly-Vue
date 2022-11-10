@@ -8,7 +8,7 @@
 }
 
 h1 {
-  font-size: 64px;
+  font-size: clamp(3rem, 5vw, 64px);
   width: min(15ch, 15.2ch);
   font-weight: 900;
   line-height: 1.2;
@@ -16,8 +16,9 @@ h1 {
 }
 
 .catch-body {
-  width: min(60ch, 70.2ch);
+  width: min(50ch, 70.2ch);
   margin-bottom: 1rem;
+  font-size: clamp(.6rem, 5.5vw, 14px);
 }
 
 .request-demo-button {

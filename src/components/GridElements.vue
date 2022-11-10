@@ -50,7 +50,9 @@ export default {
         "d e f";
     place-items: center;
     height: 50vh;
-    width: 100%;
+    column-gap: 1rem;
+    /* width: 100%;
+    margin: 0 auto; */
 }
 
 h2 {
@@ -62,7 +64,11 @@ h4,
 h5 {
     text-align: center;
     margin: 0 auto;
-    width: 30ch;
+    /* width: 30ch; */
+}
+
+h5 {
+    width: 20ch;
 }
 
 h4 {
