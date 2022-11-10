@@ -8,7 +8,7 @@
                 <div class="links">
                     <ul>
                         <li v-for="(link, index) in links" :key="index">
-                            <a :href="link.url">{{ link.name }}</a>
+                            <a href=#>{{ link.name }}</a>
                         </li>
                     </ul>
                 </div>

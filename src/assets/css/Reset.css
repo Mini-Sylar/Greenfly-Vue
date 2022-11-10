@@ -1,7 +1,7 @@
 * {
   --main-font-color: #000;
   --main-accent-color: #0055af;
-  --main-font-color: #fff;
+  --main-footer-color: #fff;
   --section-font-color: #022a4e;
   --footer-color: hsl(153, 48%, 29%);
 }
@@ -42,4 +42,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  color: var(--main-font-color);
 }
