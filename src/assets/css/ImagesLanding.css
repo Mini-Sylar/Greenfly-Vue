@@ -7,14 +7,13 @@
   place-items: center;
   height: 100%;
   width: 100%;
-  
 }
 
 .image-1 {
   grid-area: 1 / 1 /2;
   width: 90%;
   height: 120%;
-  background-color: #59fab2;
+  background-color: #41b883;
   border-radius: 20px;
   z-index: -1;
   position: relative;

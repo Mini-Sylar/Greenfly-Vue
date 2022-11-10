@@ -23,3 +23,7 @@ a {
   margin: 0 auto;
   margin-block: 5rem;
 }
+
+.reverse > div > .content-section {
+  flex-direction: row-reverse;
+}

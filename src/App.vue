@@ -17,7 +17,7 @@
            <app-sections v-bind:section_content='section_content.content_1'>
            </app-sections>
            <div class="reverse">
-            <app-sections v-bind:section_content='section_content.content_2'>
+            <app-sections v-bind:section_content='section_content.content_2' style="display:flex;flex-direction:column-reverse">
            </app-sections>
            </div> 
         </div>
@@ -50,12 +50,12 @@ export default {
         content_1: {
           title: "Every Organization Has Advocates",
           body: "Greenfly enables you to activate and benefit from the social influence of athletes, talent,celebrities, employees,fans, brand ambassadors,sponsors,customers, partners, and more.",
-          image: '@/assets/images/subject-2.png'
+          image: 'subject-2.png'
         },
         content_2: {
-          title: "Section 2",
+          title: "Turn Advocates Into Brand Builders",
           body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum vestibulum tempus. Suspendisse eros nulla, congue a ante ut, bibendum consequat massa. Donec mattis aliquet nunc eu iaculis. Praesent eu mi sed tortor vestibulum mollis ut id urna. Aenean et tempus enim,",
-          image: '@/assets/images/subject-3.png'
+          image: 'subject-3.png'
         },
       },
     };
@@ -70,5 +70,5 @@ export default {
 };
 </script>
 <style  src="@/assets/css/Reset.css">
-
+ 
 </style>

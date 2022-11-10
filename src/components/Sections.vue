@@ -1,12 +1,12 @@
 <template lang="">
   <div>
     <div class="content-section">
-        <div class="left-side">
+        <div class="left-side" >
            <h2>{{section_content.title}}</h2>
            <p>{{section_content.body}}</p>
         </div>    
         <div class="right-side">
-            <img src="@/assets/images/subject-2.png"  alt="Image Here">
+            <img :src="image"  alt="Image Here">
         </div>
     </div>
   </div>
@@ -15,7 +15,6 @@
 export default {
     data() {
         return {
-
         }
     },
     methods: {
@@ -29,10 +28,11 @@ export default {
             // required: true
         }
     },
-    // created: function (whichcontent) {
-    //     this.title = this.section_content.whichcontent.title;
-    //     this.body = this.section_content.whichcontent.body;
-    // },
+    computed: {
+        image: function () {
+            return new URL(`/src/assets/images/${this.section_content.image}`, import.meta.url)
+        }
+    }
 };
 </script>
 <style scoped>
@@ -44,8 +44,10 @@ export default {
     width: 100%;
     height: 50vh;
     margin-block: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
+    gap: 2rem;
 }
+
 
 .left-side,
 .right-side {
