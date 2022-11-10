@@ -1,9 +1,9 @@
 * {
   --main-font-color: #000;
-  --main-accent-color: hsl(153, 48%, 29%);
+  --main-accent-color: #37a6ab;
   --main-footer-color: #fff;
   --section-font-color: #022a4e;
-  --footer-color: hsl(153, 48%, 29%);
+  --footer-color: hsl(183, 51%, 24%);
 }
 
 *,
@@ -31,6 +31,10 @@ a {
 
 .has-color {
   background-color: #ffffffaa;
+}
+
+.has-color:nth-child(1) {
+  background-color: red;
 }
 
 .is-a-footer {

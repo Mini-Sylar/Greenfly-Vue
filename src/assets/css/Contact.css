@@ -76,7 +76,7 @@ textarea {
 }
 
 svg {
-  color: #41b883;
+  color: var(--main-accent-color);
 }
 
 button {
@@ -84,7 +84,7 @@ button {
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
-  background-color: #41b883;
+  background-color: var(--main-accent-color);
   color: #fff;
   font-size: 1.2rem;
   font-weight: 600;

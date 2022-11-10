@@ -71,7 +71,7 @@ h4 {
 }
 
 h4>* {
-    color: #41b883;
+    color: var(--main-accent-color);
     font-size: 2rem;
 }
 

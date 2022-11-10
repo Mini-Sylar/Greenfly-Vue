@@ -46,5 +46,5 @@ p {
 svg {
   width: 1.2rem;
   height: 1.2rem;
-  color: rgb(3, 184, 93);
+  color: var(--main-accent-color);
 }
