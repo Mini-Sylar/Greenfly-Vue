@@ -10,7 +10,7 @@
          
         </div>
       </section>
-      <section class="has-color">
+      <section class="has-color push-up">
         <div class="is-a-container">
           <app-seewhy></app-seewhy>
         </div>
@@ -55,6 +55,8 @@ import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
 import Wave from './components/interface/Wave.vue';
 import Blob from './components/interface/Blob.vue';
+
+
 
 export default {
   name: "Greenfly",

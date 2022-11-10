@@ -13,7 +13,7 @@
   grid-area: 1 / 1 /2;
   width: 90%;
   height: 120%;
-  background-color: #41b883;
+  background-color: var(--main-accent-color);
   border-radius: 20px;
   z-index: -1;
   position: relative;

@@ -30,7 +30,12 @@ a {
 }
 
 .has-color {
-  background-color: #ffffffaa;
+  background-color: #ffffffcd;
+}
+
+.push-up {
+  margin-top: -.1rem;
+   background-color: #ffffff;
 }
 
 .has-color:nth-child(1) {
@@ -59,4 +64,56 @@ body {
     rgba(255, 254, 234, 1) 35%,
     #b7e8eb 100%
   );
+}
+
+/* GSAP SPECIFIC ANIMATIONS */
+.ipsType_right {
+  text-align: right;
+}
+.ipsType_center {
+  text-align: center;
+}
+.cInnerContent {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ipsSpacer_bottom_double {
+  margin-bottom: 30px;
+}
+.ipsGrid {
+  display: inline-block;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ipsGrid::before, .ipsGrid::after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  box-sizing: border-box;
+}
+.ipsGrid > .ipsGrid_span5 {
+  width: 40.42553191489362%;
+}
+.ipsGrid > .ipsGrid_span7 {
+  width: 57.44680851063829%;
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+  float: left;
+  margin-left: 2%;
+}
+.ipsGrid > [class*="ipsGrid_span"]:first-child {
+  margin-left: 0;
+}
+
+.gs_reveal {
+  opacity: 0;
+  visibility: hidden;
+  will-change: transform, opacity;
 }

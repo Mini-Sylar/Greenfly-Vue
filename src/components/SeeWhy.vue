@@ -48,7 +48,7 @@ h2 {
 button {
     background-color: white;
     padding: 1rem 1.5rem;
-    border-color: var(--main-accent-color);
+    border: 1px solid var(--main-accent-color);
     outline: none;
     border-radius: 25px;
     color: var(--main-accent-color);
