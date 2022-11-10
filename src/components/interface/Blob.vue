@@ -32,5 +32,6 @@ export default {
   top: -20%;
   right: 0;
   opacity: 1;
+  z-index: -1;
 }
 </style>

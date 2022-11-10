@@ -56,7 +56,6 @@ export default {
     max-height: 20em;
     z-index: -1;
     overflow: hidden;
-    background-color: aqua;
 }
 
 .parallax>use {

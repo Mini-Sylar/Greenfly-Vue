@@ -55,7 +55,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0055af;
+  background-color: var(--main-accent-color);
   color: #fff;
   padding: 0.8rem 2rem;
   border-radius: 25px;

@@ -20,7 +20,6 @@ export default {
 
 <style  scoped>
 .see-why-container {
-    background-color: #f2f2f2;
     width: 100%;
     display: flex;
     flex-direction: column;
