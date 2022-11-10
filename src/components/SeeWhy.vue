@@ -28,11 +28,11 @@ export default {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
     font-weight: 700;
     margin: 0 auto;
     margin-bottom: 2rem;
-    width: 40ch;
+    width: min(100%, 50ch);
     text-align: center;
 }
 

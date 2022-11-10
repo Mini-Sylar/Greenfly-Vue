@@ -67,4 +67,13 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+  .get-demo {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  a {
+  font-size: clamp(0.6rem, 1.1vw, 1.2rem);
+}
 }

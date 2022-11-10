@@ -18,7 +18,7 @@ h1 {
 .catch-body {
   width: min(50ch, 70.2ch);
   margin-bottom: 1rem;
-  font-size: clamp(.6rem, 5.5vw, 14px);
+  font-size: clamp(0.6rem, 5.5vw, 14px);
 }
 
 .request-demo-button {
@@ -30,3 +30,18 @@ h1 {
   border-radius: 25px;
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: clamp(0.4rem, 5.4vw, 64px);
+  }
+  .catch-body {
+    font-size: clamp(0.5rem, 3.4vw, 13px);
+    width: min(40ch, 50.2ch);
+  }
+  .request-demo-button {
+    padding: 0.6rem 1.2rem;
+    font-size: 12px;
+  }
+}
+

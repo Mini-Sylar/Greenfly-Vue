@@ -34,8 +34,8 @@ a {
 }
 
 .push-up {
-  margin-top: -.1rem;
-   background-color: #ffffff;
+  margin-top: -0.1rem;
+  background-color: #ffffff;
 }
 
 .has-color:nth-child(1) {
@@ -66,6 +66,8 @@ body {
   );
 }
 
+
+
 /* GSAP SPECIFIC ANIMATIONS */
 .ipsType_right {
   text-align: right;
@@ -87,7 +89,8 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.ipsGrid::before, .ipsGrid::after {
+.ipsGrid::before,
+.ipsGrid::after {
   display: table;
   content: "";
   line-height: 0;

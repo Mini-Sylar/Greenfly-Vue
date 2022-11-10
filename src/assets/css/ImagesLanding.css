@@ -29,6 +29,7 @@
   position: absolute;
   right: -25%;
   bottom: -20%;
+  z-index: -1;
 }
 
 .image-2 {
@@ -69,3 +70,16 @@ img {
     bottom: -40%;
   }
 }
+@media screen and (max-width: 768px) {
+  .image-1 > img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 20px;
+    z-index: 5;
+    position: absolute;
+    right: -35%;
+    bottom: -30%;
+  }
+}
+

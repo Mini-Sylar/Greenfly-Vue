@@ -30,6 +30,6 @@ export default {
   },
 };
 </script>
-<style lang="" src="@/assets/css/Landing.css">
-  @import './assets/css/Reset.css';
+<style src="@/assets/css/Landing.css">
+
 </style>
