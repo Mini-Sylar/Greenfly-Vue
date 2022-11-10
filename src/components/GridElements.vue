@@ -1,11 +1,14 @@
 <template lang="">
-  <div class="grid-elements">
-    <div class="" v-for="(item, index) in content.icons" :key="index">
-      <div class="grid-item">
-        <h4><i :class="item"></i></h4>
-        <h5>{{ content.body[index] }}</h5>
+  <div class="grid-container">
+    <h2 class="main-section-title">Lorem Ipusm</h2>
+      <div class="grid-elements">
+        <div class="" v-for="(item, index) in content.icons" :key="index">
+          <div class="grid-item">
+            <h4><i :class="item"></i></h4>
+            <h5>{{ content.body[index] }}</h5>
+          </div>
+        </div>
       </div>
-    </div>
   </div>
 </template>
 <script>
@@ -48,7 +51,11 @@ export default {
     place-items: center;
     height: 50vh;
     width: 100%;
+}
 
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 h4,
@@ -66,5 +73,9 @@ h4 {
 h4>* {
     color: #41b883;
     font-size: 2rem;
+}
+
+.grid-container {
+    padding: 3rem;
 }
 </style>

@@ -17,11 +17,6 @@ export default {
         return {
         }
     },
-    methods: {
-        changeTitle: function (params) {
-
-        }
-    },
     props: {
         section_content: {
             type: Object,
@@ -58,7 +53,6 @@ export default {
     gap: 1rem;
     border-radius: 20px;
     justify-content: center;
-    /* align-items: center; */
 }
 
 p {
@@ -73,7 +67,6 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* padding: 1rem; */
     border-radius: 20px;
 
 }

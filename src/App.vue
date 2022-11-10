@@ -28,6 +28,12 @@
           <app-grid></app-grid>
         </div>
        </section>
+       <!-- Contact Section -->
+      <section>
+        <div class="is-a-container">
+          <app-contact></app-contact>
+        </div>
+      </section>
     </main>
   </div>
 </template>
@@ -38,6 +44,7 @@ import Landing from "./components/Landing.vue";
 import SeeWhy from "./components/SeeWhy.vue";
 import Sections from './components/Sections.vue';
 import GridElements from './components/GridElements.vue';
+import Contact from './components/Contact.vue';
 
 
 export default {
@@ -66,6 +73,7 @@ export default {
     "app-seewhy": SeeWhy,
     "app-sections": Sections,
     "app-grid": GridElements,
+    "app-contact": Contact,
   },
 };
 </script>
