@@ -1,13 +1,13 @@
 <template lang="">
-  <div>
+  <div class="image-container">
     <div class="image-1">
-        <img :src="images[0]" alt="">
+        <img src="@/assets/images/subject-1.png" alt="">
     </div>
     <div class="image-2">
-        <img :src="images[1]" alt="">
+        <img src="@/assets/images/subject-2.png" alt="">
     </div>
     <div class="image-3">
-        <img :src="images[2]" alt="">
+        <img src="@/assets/images/subject-3.png" alt="">
     </div>
   </div>
 </template>
@@ -15,12 +15,12 @@
 export default {
     data() {
         return {
-            images: ['./assets/images/subject-1', './assets/images/subject-2', './assets/images/subject-3']
+
         };
     },
 }
 </script>
 
-<style src="@/assets/css/ImagesLanding.css">
+<style scoped src="@/assets/css/ImagesLanding.css"">
 
 </style>
