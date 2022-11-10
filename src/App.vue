@@ -3,7 +3,7 @@
     <app-header></app-header>
     <main>
       <section>
-        <div class="is-a-container">
+        <div class="is-a-container is-landing">
           <app-landing></app-landing>
         </div>
       </section>
