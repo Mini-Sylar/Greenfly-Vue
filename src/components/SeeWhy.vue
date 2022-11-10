@@ -33,7 +33,6 @@ h2 {
     font-weight: 700;
     margin: 0 auto;
     margin-bottom: 2rem;
-    /* background-color: red; */
     width: 40ch;
     text-align: center;
 }

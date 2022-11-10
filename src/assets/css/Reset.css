@@ -23,8 +23,3 @@ a {
   margin: 0 auto;
   margin-block: 5rem;
 }
-
-.reverse div div {
-  display: flex;
-  flex-direction: row-reverse;
-}

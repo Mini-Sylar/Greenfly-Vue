@@ -44,6 +44,7 @@ export default {
     width: 100%;
     height: 50vh;
     margin-block: 2rem;
+    padding: 2rem;
 }
 
 .left-side,
