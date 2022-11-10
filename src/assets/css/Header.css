@@ -1,0 +1,46 @@
+header {
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  width: min(90%, 1200px);
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.logo {
+  width: 100%;
+  background-color: springgreen;
+}
+.links {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+.links ul {
+  display: flex;
+  gap: min(5rem, 5vw);
+  justify-content: center;
+  align-items: center;
+}
+
+.links li {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.demo {
+  display: flex;
+  background-color: yellow;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.request {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
