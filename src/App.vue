@@ -2,9 +2,11 @@
   <div>
     <app-header></app-header>
     <main>
+       <ui-wave></ui-wave>
       <section>
         <div class="is-a-container is-landing">
           <app-landing></app-landing>
+         
         </div>
       </section>
       <section class="has-color">
@@ -50,6 +52,7 @@ import Sections from './components/Sections.vue';
 import GridElements from './components/GridElements.vue';
 import Contact from './components/Contact.vue';
 import Footer from './components/Footer.vue';
+import Wave from './components/interface/Wave.vue';
 
 export default {
   name: "Greenfly",
@@ -79,6 +82,7 @@ export default {
     "app-grid": GridElements,
     "app-contact": Contact,
     "app-footer": Footer,
+    "ui-wave": Wave,
   },
 };
 </script>
