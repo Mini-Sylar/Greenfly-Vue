@@ -57,6 +57,7 @@ export default {
 
 p {
     width: 50ch;
+    font-size: clamp(.8rem, 1.5vw, 1.5rem);
 }
 
 h2 {
@@ -69,5 +70,12 @@ img {
     object-fit: cover;
     border-radius: 20px;
 
+}
+
+@media screen and (max-width: 427px) {
+    .content-section {
+        flex-direction: column;
+        height: 100%;
+    }
 }
 </style>

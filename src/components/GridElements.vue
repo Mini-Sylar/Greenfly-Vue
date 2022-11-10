@@ -84,4 +84,21 @@ h4>* {
 .grid-container {
     padding: 3rem;
 }
+
+@media screen and (max-width: 426px) {
+    .grid-elements {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "a b"
+            "c d"
+            "e f";
+        place-items: center;
+        height: 100%;
+        column-gap: 1rem;
+        /* width: 100%;
+    margin: 0 auto; */
+    }
+}
 </style>

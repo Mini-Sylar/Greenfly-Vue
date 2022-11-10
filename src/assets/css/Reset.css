@@ -66,8 +66,6 @@ body {
   );
 }
 
-
-
 /* GSAP SPECIFIC ANIMATIONS */
 .ipsType_right {
   text-align: right;
@@ -119,4 +117,10 @@ body {
   opacity: 0;
   visibility: hidden;
   will-change: transform, opacity;
+}
+
+@media screen and (min-width: 426px) {
+  .reverse > div > .content-section {
+    flex-direction: column-reverse;
+  }
 }

@@ -95,3 +95,9 @@ button {
   display: grid;
   place-content: center;
 }
+
+@media screen and (max-width: 426px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}
