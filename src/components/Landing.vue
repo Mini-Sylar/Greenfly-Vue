@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import ImagePiece from './ImagePiece.vue';
+import ImagePiece from './interface/ImagePiece.vue';
 export default {
   data() {
     return {
