@@ -16,8 +16,11 @@
         <div class="is-a-container">
            <app-sections v-bind:section_content='section_content.content_1'>
            </app-sections>
+           <div class="reverse">
             <app-sections v-bind:section_content='section_content.content_2'>
            </app-sections>
+           </div>
+            
         </div>
        
       </section>
@@ -38,12 +41,14 @@ export default {
       body: "Body",
       section_content: {
         content_1: {
-          title: "Section 1",
-          body: "Body section that is here",
+          title: "Every Organization Has Advocates",
+          body: "Greenfly enables you to activate and benefit from the social influence of athletes, talent,celebrities, employees,fans, brand ambassadors,sponsors,customers, partners, and more.",
+          image: '@/assets/images/subject-2.png'
         },
         content_2: {
           title: "Section 2",
-          body: "Body section that is here",
+          body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum vestibulum tempus. Suspendisse eros nulla, congue a ante ut, bibendum consequat massa. Donec mattis aliquet nunc eu iaculis. Praesent eu mi sed tortor vestibulum mollis ut id urna. Aenean et tempus enim,",
+          image: '@/assets/images/subject-3.png'
         },
       },
     };
@@ -56,4 +61,6 @@ export default {
   },
 };
 </script>
-<style lang="" src="@/assets/css/Reset.css"></style>
+<style  src="@/assets/css/Reset.css">
+
+</style>

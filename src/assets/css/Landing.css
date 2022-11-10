@@ -7,13 +7,6 @@
   width: 100%;
 }
 
-.left-side {
-  /* background-color: red; */
-}
-.right-side {
-  /* background-color: blue; */
-}
-
 h1 {
   font-size: 64px;
   width: min(15ch, 15.2ch);
