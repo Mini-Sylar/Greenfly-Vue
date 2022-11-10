@@ -8,16 +8,15 @@ nav {
   margin: 0 auto;
   padding-top: 1rem;
 }
-w
 .logo {
   width: 100%;
-  background-color: springgreen;
+  /* background-color: springgreen; */
 }
 .links {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: red;
+  /* background-color: red; */
 }
 .links ul {
   display: flex;
@@ -34,7 +33,7 @@ w
 
 .demo {
   display: flex;
-  background-color: yellow;
+  /* background-color: yellow; */
   justify-content: flex-end;
   width: 100%;
 }
