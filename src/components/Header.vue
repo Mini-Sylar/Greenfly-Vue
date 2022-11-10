@@ -3,7 +3,7 @@
         <header>
             <nav class="nav-bar">
                 <div class="logo">
-                    <h2>Logo</h2>
+                    <img src="@/assets/images/logo.png" alt="">
                 </div>
                 <div class="links">
                     <ul>
@@ -52,7 +52,7 @@ export default {
     },
 }
 </script>
-<style lang="" src="@/assets/css/Header.css">
+<style lang="" scoped src="@/assets/css/Header.css">
 
 
 </style>

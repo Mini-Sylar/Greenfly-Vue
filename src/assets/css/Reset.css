@@ -20,5 +20,5 @@ a {
 .is-a-container {
   width: min(90%, 1200px);
   margin: 0 auto;
-  margin-block: 2rem;
+  margin-block: 5rem;
 }
