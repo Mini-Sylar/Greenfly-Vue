@@ -38,6 +38,8 @@ import Landing from "./components/Landing.vue";
 import SeeWhy from "./components/SeeWhy.vue";
 import Sections from './components/Sections.vue';
 import GridElements from './components/GridElements.vue';
+
+
 export default {
   name: "Greenfly",
   data() {
@@ -63,7 +65,7 @@ export default {
     "app-landing": Landing,
     "app-seewhy": SeeWhy,
     "app-sections": Sections,
-    "app-grid": GridElements
+    "app-grid": GridElements,
   },
 };
 </script>

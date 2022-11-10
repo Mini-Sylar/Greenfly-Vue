@@ -2,7 +2,7 @@
     <div class="grid-elements">
         <div class="" v-for="(item, index) in content.icons" :key="index">
             <div class="grid-item">
-                <h4>{{item}}</h4>
+                <h4><i :class="item"></i></h4>
                 <h5>{{content.body[index]}}</h5>
             </div>
         
@@ -15,7 +15,7 @@ export default {
     data() {
         return {
             content: {
-                icons: [1, 2, 3, 4, 5, 6],
+                icons: ['fas fa-monitor-heart-rate', 'fa-solid fa-hands-bubbles', "fa-solid fa-heart-half-stroke", "fas fa-calendar-alt", "fa-solid fa-arrow-trend-up", "fas fa-popcorn"],
                 body: ["Name 1", "Name 2", "Name 3", "Name 4", "Name 5", "Name 6"]
 
             }
@@ -41,5 +41,10 @@ export default {
 h4,
 h5 {
     text-align: center;
+}
+
+h4>* {
+    color: #41b883;
+    font-size: 2rem;
 }
 </style>
