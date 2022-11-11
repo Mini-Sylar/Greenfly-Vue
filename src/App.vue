@@ -20,7 +20,7 @@
            <app-sections v-bind:section_content='section_content.content_1'>
            </app-sections> 
            <div class="reverse">
-            <app-sections v-bind:section_content='section_content.content_2' style="display:flex;flex-direction:column-reverse">
+            <app-sections v-bind:section_content='section_content.content_2'>
            </app-sections>
            </div> 
         </div>

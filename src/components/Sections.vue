@@ -67,7 +67,7 @@ h2 {
 img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 20px;
 
 }
@@ -83,5 +83,8 @@ img {
         width: 35ch;
         font-size: clamp(1rem, 1.5vw, 2rem);
     }
+
+
+
 }
 </style>

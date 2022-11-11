@@ -81,5 +81,24 @@ img:hover {
         height: 100%;
         padding-top: 20rem;
     }
+
+    img {
+        width: 120px;
+    }
+
+    .slides-container {
+        display: flex;
+        gap: 3rem;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+
+    .slides-container::-webkit-scrollbar {
+        visibility: hidden;
+    }
+
+    .slides-container div {
+        width: 100%;
+    }
 }
 </style>
