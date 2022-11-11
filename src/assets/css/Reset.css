@@ -20,7 +20,7 @@ a {
 }
 
 .is-a-container {
-  width: min(95%, 1400px);
+  width: min(90%, 1200px);
   margin: 0 auto;
   margin-block: 5rem;
 }
