@@ -79,7 +79,7 @@ img:hover {
 @media screen and (max-width:426px) {
     .see-why-container {
         height: 100%;
-        padding-top: 19rem;
+        padding-top: 25rem;
     }
 }
 </style>
