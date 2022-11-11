@@ -91,4 +91,10 @@ export default {
         transform: translate3d(85px, 0, 0);
     }
 }
+
+@media screen and (max-width:426px) {
+  .waves {
+      top: 25%;
+    }
+}
 </style>
