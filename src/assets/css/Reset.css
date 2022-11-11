@@ -38,9 +38,6 @@ a {
   background-color: #ffffff;
 }
 
-.has-color:nth-child(1) {
-  background-color: red;
-}
 
 .is-a-footer {
   background-color: var(--footer-color);

@@ -100,7 +100,7 @@ img:hover {
     }
 
     .slides-container div {
-        flex: 1;
+        width: 100%;
     }
 }
 </style>
