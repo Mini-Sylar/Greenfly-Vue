@@ -119,5 +119,8 @@ export default {
     height: 20%;
     object-fit: contain;
   }
+  #nav-icon1 {
+    top: 3%;
+  }
 }
 </style>
