@@ -68,8 +68,8 @@ h5 {
 }
 
 h5 {
-    width: 30ch;
-    font-size: clamp(1rem, 1vw, 1.5rem);
+    width: 25ch;
+    font-size: clamp(.8rem, 1vw, 1.5rem);
 }
 
 h4 {

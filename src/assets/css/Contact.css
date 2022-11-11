@@ -4,7 +4,7 @@
 }
 
 h2 {
-  font-size: clamp(1.5rem, 3vw, 4rem);
+  font-size: clamp(1.5rem, 4vw, 4rem);
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -16,13 +16,13 @@ h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 2vw, 4rem);
   font-weight: 400;
   margin-bottom: 1rem;
 }
 
 li {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 2vw, 4rem);
   font-weight: 400;
   margin-bottom: 1rem;
   list-style: none;
@@ -49,7 +49,7 @@ li {
 }
 
 input {
-  padding: 1rem;
+  padding: max(0.8rem, 0.3rem);
   border: 1px solid #ccc;
   border-radius: 5px;
   outline: none;
