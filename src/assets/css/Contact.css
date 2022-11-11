@@ -4,8 +4,8 @@
 }
 
 h2 {
-  font-size: clamp(1.5rem, 4vw, 4rem);
-  font-weight: 600;
+  font-size: clamp(1.7rem, 2.5vw, 2.5rem);
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 

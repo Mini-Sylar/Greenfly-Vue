@@ -28,7 +28,7 @@ export default {
 }
 
 h2 {
-    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+    font-size: clamp(1.7rem, 2.5vw, 2.5rem);
     font-weight: 700;
     margin: 0 auto;
     margin-bottom: 2rem;
@@ -79,7 +79,7 @@ img:hover {
 @media screen and (max-width:426px) {
     .see-why-container {
         height: 100%;
-        padding-top: 16rem;
+        padding-top: 20rem;
     }
 }
 </style>

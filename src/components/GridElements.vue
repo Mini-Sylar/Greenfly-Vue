@@ -58,6 +58,7 @@ export default {
 h2 {
     text-align: center;
     margin-bottom: 2rem;
+    font-size: clamp(1.7rem, 2.5vw, 2.5rem);
 }
 
 h4,
