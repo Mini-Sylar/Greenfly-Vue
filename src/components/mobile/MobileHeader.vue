@@ -14,84 +14,110 @@
 </template>
 <script>
 export default {
-    data() {
-        return {
+  data() {
+    return {
 
-        }
-    },
+    }
+  },
 };
 </script>
 <style scoped>
+.logo {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 25%;
+  height: 20%;
+  object-fit: contain;
+}
+
 /* Ham */
 #nav-icon1 {
-    display: block;
-    width: 50px;
-    height: 45px;
-    position: absolute;
-    margin: 20px auto;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: 0.5s ease-in-out;
-    -moz-transition: 0.5s ease-in-out;
-    -o-transition: 0.5s ease-in-out;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-    right: 5%;
-    z-index: 25;
+  display: block;
+  width: 50px;
+  height: 45px;
+  position: absolute;
+  margin: 0 auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  right: 5%;
+  z-index: 25;
+  top: 3%;
 }
 
 #nav-icon1 span {
-    display: block;
-    position: absolute;
-    height: 3px;
-    width: 90%;
-    background: var(--accent-color);
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: 0.25s ease-in-out;
-    -moz-transition: 0.25s ease-in-out;
-    -o-transition: 0.25s ease-in-out;
-    transition: 0.25s ease-in-out;
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 90%;
+  background: var(--main-accent-color);
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
 #nav-icon1 span:nth-child(1) {
-    top: 0px;
+  top: 0px;
 }
 
 #nav-icon1 span:nth-child(2) {
-    top: 12px;
+  top: 12px;
 }
 
 #nav-icon1 span:nth-child(3) {
-    top: 24px;
+  top: 24px;
 }
 
 #nav-icon1.open span:nth-child(1) {
-    top: 12px;
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
-    transform: rotate(135deg);
+  top: 12px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 #nav-icon1.open span:nth-child(2) {
-    opacity: 0;
-    left: -60px;
+  opacity: 0;
+  left: -60px;
 }
 
 #nav-icon1.open span:nth-child(3) {
-    top: 12px;
-    -webkit-transform: rotate(-135deg);
-    -moz-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
-    transform: rotate(-135deg);
+  top: 12px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
 }
+
+@media screen and (max-width:768px) {
+  #nav-icon1 {
+    top: 5%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .logo img {
+    width: 30%;
+    height: 20%;
+    object-fit: contain;
+  }
 }
 </style>
