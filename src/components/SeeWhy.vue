@@ -64,7 +64,7 @@ img {
     width: 50%;
     height: 100%;
     margin: 0 auto;
-    object-fit: contain;
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
