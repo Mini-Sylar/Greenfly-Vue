@@ -32,7 +32,7 @@ h1 {
   font-weight: 700;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 821px) {
   h1 {
     font-size: clamp(0.4rem, 5.4vw, 64px);
   }
@@ -43,6 +43,9 @@ h1 {
   .request-demo-button {
     padding: 0.6rem 1.2rem;
     font-size: 12px;
+  }
+  .landing-page {
+    gap: 0;
   }
 }
 

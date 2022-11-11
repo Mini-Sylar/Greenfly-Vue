@@ -136,7 +136,7 @@ export default {
   transform: rotate(-135deg);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:821px) {
   #nav-icon1 {
     top: 5%;
   }
