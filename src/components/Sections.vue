@@ -76,6 +76,12 @@ img {
     .content-section {
         flex-direction: column;
         height: 100%;
+
+    }
+
+    p {
+        width: 35ch;
+        font-size: clamp(1rem, 1.5vw, 2rem);
     }
 }
 </style>
