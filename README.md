@@ -8,10 +8,11 @@ This project tries to follow the best practices on vue.js and vite. It is a work
 
 ### Desktop
 
-<div style="display:flex">
 <img src='src/screenshots/Desktop(Medium).jpeg'  width="50%"/>
+
+### Mobile
+
 <img src='src/screenshots/Mobile(Medium).png'  width="50%"/>
-</div>
 
 ## Project Setup
 
