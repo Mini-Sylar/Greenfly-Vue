@@ -60,6 +60,7 @@ button {
     width: 100%;
 }
 
+
 img {
     width: 50%;
     height: 100%;
@@ -83,14 +84,15 @@ img:hover {
     }
 
     img {
-        width: 120px;
+        width: 5rem;
     }
 
     .slides-container {
         display: flex;
-        gap: 3rem;
+        gap: 2rem;
         overflow-y: hidden;
         overflow-x: scroll;
+        width: 100%;
     }
 
     .slides-container::-webkit-scrollbar {
