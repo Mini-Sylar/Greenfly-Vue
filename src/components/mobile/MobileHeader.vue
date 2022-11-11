@@ -1,37 +1,66 @@
 <template lang="">
   <div>
+       <ui-sidebar></ui-sidebar>
     <nav>
       <div class="logo">
         <img src="@/assets/images/logo.png" alt="" />
       </div>
-      <div id="nav-icon1" class="hamburger">
+      <div id="nav-icon1" class="hamburger" v-on:click="showHam">
         <span></span>
         <span></span>
         <span></span>
       </div>
+     
     </nav>
   </div>
 </template>
 <script>
+import MobileSideBar from "./MobileSideBar.vue";
 export default {
   data() {
     return {
-
+      showNav: "show-nav",
     }
+  },
+  methods: {
+    showHam() {
+      document.querySelector(".nav-mobile").classList.toggle(this.showNav);
+      const mobile_nav = document.querySelector(".nav-mobile");
+      document.querySelector(".first").classList.toggle(this.showNav);
+      if (mobile_nav.classList.contains("show-nav")) {
+        document.body.style = `
+        overflow:hidden;
+    `;
+      } else {
+        document.body.style = `
+        overflow:scroll;
+    `;
+      }
+
+    },
+  },
+  components: {
+    "ui-sidebar": MobileSideBar,
   },
 };
 </script>
 <style scoped>
+.no-scroll {
+  overflow: hidden;
+}
+
 .logo {
   display: flex;
   width: 100%;
   overflow: hidden;
+  z-index: 35;
 }
 
 .logo img {
   width: 25%;
   height: 20%;
   object-fit: contain;
+  z-index: 5;
 }
 
 /* Ham */
@@ -119,6 +148,7 @@ export default {
     height: 20%;
     object-fit: contain;
   }
+
   #nav-icon1 {
     top: 3%;
   }
