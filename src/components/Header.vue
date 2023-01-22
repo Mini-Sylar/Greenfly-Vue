@@ -14,8 +14,8 @@
                 </div>
                 <div class="demo">
                     <div class="request">
-                        <a href="#">Login</a>
-                        <a href="#" class="get-demo">Get a Demo</a>
+                        <a href = "mailto: terenceugoq@gmail.com">Login</a>
+                        <a href = "mailto: terenceugoq@gmail.com" class="get-demo">Get a Demo</a>
                     </div>
                 </div>
             </nav>
