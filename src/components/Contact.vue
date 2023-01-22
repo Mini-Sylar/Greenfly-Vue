@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="contact-container">
+        <div class="contact-container" id="contact">
             <div class="left-side gs_reveal gs_reveal_fromLeft">
                 <h2>Ready to start a conversation?</h2>
                 <p>We are always willing and ready to transform advocates</p>

@@ -4,6 +4,7 @@
   --main-footer-color: #fff;
   --section-font-color: #022a4e;
   --footer-color: hsl(183, 51%, 24%);
+    scroll-behavior: smooth;
 }
 
 *,

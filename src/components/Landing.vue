@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="landing-page">
+  <div class="landing-page" id="landing">
     <div class="left-side gs_reveal gs_reveal_fromLeft">
       <h1 class="transform-heading">
         {{ heading }}

@@ -8,7 +8,7 @@
                 <div class="links">
                     <ul>
                         <li v-for="(link, index) in links" :key="index">
-                            <a href=#>{{ link.name }}</a>
+                            <a :href="link.to">{{ link.name }}</a>
                         </li>
                     </ul>
                 </div>
@@ -29,30 +29,35 @@ export default {
             links: [
                 {
                     name: 'Solutions',
-                    link: '#'
+                    link: '#',
+                    to:"#landing"
                 },
                 {
                     name: 'Platforms',
-                    link: '#'
+                    link: '#',
+                    to:"#seewhy"
                 },
                 {
                     name: 'Customers',
-                    link: '#'
+                    link: '#',
+                    to: "#content-section-main"
                 },
                 {
                     name: 'Resources',
-                    link: '#'
+                    link: '#',
+                    to:'#resources-used'
                 },
                 {
-                    name: 'About',
-                    link: '#'
+                    name: 'Contact',
+                    link: '#',
+                    to:'#contact'
                 }
             ]
         }
     },
 }
 </script>
-<style lang="" scoped src="@/assets/css/Header.css">
+<style scoped src="@/assets/css/Header.css">
 
 
 </style>

@@ -1,6 +1,6 @@
 <template lang="">
   <div>
-    <div class="content-section">
+    <div class="content-section" id="content-section-main">
         <div class="left-side gs_reveal gs_reveal_fromLeft" >
            <h2>{{section_content.title}}</h2>
            <p>{{section_content.body}}</p>
