@@ -9,21 +9,21 @@
                 <div class="location-important">
                     <div class="location">
                        <i class="fa-solid fa-location-dot"></i>
-                        <p>Greenfly, 1234 Main Street, New York, NY 12345</p>
+                        <a href = "mailto: terenceugoq@gmail.com">Greenfly, 1234 Main Street, New York, NY 12345</a>
                     </div>
                     <div class="phone">
                        <i class="fa-solid fa-mobile"></i>
-                        <p>123-456-7890</p>
+                        <a href = "mailto: terenceugoq@gmail.com">123-456-7890</a>
                     </div>
                     <div class="email">
                        <i class="fa-solid fa-envelope"></i>
-                        <p>example@gmail.com </p>
+                        <a href = "mailto: terenceugoq@gmail.com">terenceugoq@gmail.com </a>
                         </div>
                 </div>
                 <div class="socials-important">
                     <div class="socials">
                        <i class="fa-brands fa-github"></i>
-                        <p>Follow us on social media</p>
+                        <a href="https://github.com/Mini-Sylar">Follow us on social media</a>
                     </div>
                 </div>
             </div>
